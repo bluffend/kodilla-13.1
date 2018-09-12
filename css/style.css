@@ -1,0 +1,32 @@
+body {
+	padding: 10px;
+	text-align: center;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+}
+.box {
+	display: inline-block;
+	margin: 10px;
+	width: 250px;
+    border: 1px solid #000;
+    min-height: 100px;
+	text-align: center;
+	vertical-align: top;
+    opacity: 0.7;
+}
+
+header {
+	display: block;
+	border-bottom: 1px solid black;
+	}
+.highlighted {
+    background: lightblue;
+}
+.special-header > header {
+	background: green;
+}
+.important {
+    opacity: 1;
+}
